@@ -1,5 +1,3 @@
-// Auto-generated from quiz_data.py -- do not hand-edit here.
-// Edit quiz_data.py and regenerate, or edit this file directly if you no longer use the Python version.
 const QUIZ_DATA = {
   "PARTS": {
     "hexbolt": {

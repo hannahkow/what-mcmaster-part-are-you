@@ -1,13 +1,3 @@
-// script.js
-// ---------
-// A client-side port of the original Flask app's logic. Reads content from
-// QUIZ_DATA (see data.js, auto-generated from quiz_data.py) and drives a
-// single-page state machine: intro -> 9 questions -> (Gear only) bonus
-// question -> results.
-//
-// Scoring mirrors app.py's score_answers()/winning_part() exactly, so this
-// version and the Python version always produce the same result for the
-// same answers.
 
 (function () {
   "use strict";
