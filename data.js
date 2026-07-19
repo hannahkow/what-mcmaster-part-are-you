@@ -575,7 +575,6 @@ const QUIZ_DATA = {
     "It will not be a normal day."
   ],
   "OUTRO": [
-    "You close your laptop.",
     "You have survived another day at McMaster-Carr.",
     "Now let's find out which part you are."
   ],
