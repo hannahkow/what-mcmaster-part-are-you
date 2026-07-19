@@ -5,7 +5,7 @@ const QUIZ_DATA = {
     "hexbolt": {
       "name": "Grade 8 Hex Bolt",
       "tagline": "The Rock",
-      "part_number": "91257A537",
+      "part_number": "94239A100",
       "description": "Strong, dependable, and built for pressure. Everyone trusts you when things get serious.",
       "quotes": [
         "“I don't do 'good enough.' I do torque spec.”",
@@ -22,7 +22,7 @@ const QUIZ_DATA = {
     "ducttape": {
       "name": "Duct Tape",
       "tagline": "The Chaos Fixer",
-      "part_number": "76455A671",
+      "part_number": "1800N201",
       "description": "Resourceful, adaptable, and always able to make something work, even if the solution is unconventional.",
       "quotes": [
         "“It's not a permanent fix. It's a permanent fix that lasts forever.”",
@@ -39,7 +39,7 @@ const QUIZ_DATA = {
     "cabletie": {
       "name": "Cable Tie",
       "tagline": "The Organizer",
-      "part_number": "7130K42",
+      "part_number": "70215K471",
       "description": "Efficient, practical, and naturally good at keeping people, projects, and plans together.",
       "quotes": [
         "“A place for everything, and everything zip-tied to that place.”",
@@ -56,7 +56,7 @@ const QUIZ_DATA = {
     "bubblewrap": {
       "name": "Bubble Wrap",
       "tagline": "The Protector",
-      "part_number": "5678T25",
+      "part_number": "2051T63",
       "description": "Caring, thoughtful, and supportive. You make the people around you feel safe and comfortable.",
       "quotes": [
         "“I just want everyone to arrive safely. Emotionally and physically.”",
@@ -73,7 +73,7 @@ const QUIZ_DATA = {
     "wd40": {
       "name": "Oil-Embedded Sleeve Bearing",
       "tagline": "The Smooth Operator",
-      "part_number": "6658K433",
+      "part_number": "2868T31",
       "description": "Charismatic, easygoing, and great at reducing friction. You came pre-equipped with everything you need to stay smooth, so you never cause drag for yourself or anyone else.",
       "quotes": [
         "“I don't need anything from anyone. I came pre-lubricated for a reason.”",
@@ -90,7 +90,7 @@ const QUIZ_DATA = {
     "safetyglasses": {
       "name": "Safety Glasses",
       "tagline": "The Voice of Reason",
-      "part_number": "1234A56",
+      "part_number": "62065T32",
       "description": "Responsible, observant, and always thinking one step ahead. You notice problems before they happen.",
       "quotes": [
         "“Someone has to think about liability around here.”",
@@ -107,7 +107,7 @@ const QUIZ_DATA = {
     "ballbearing": {
       "name": "Ball Bearing",
       "tagline": "The Social Butterfly",
-      "part_number": "60355K33",
+      "part_number": "60355K124",
       "description": "Smooth, energetic, and effortlessly social. You keep conversations and groups moving.",
       "quotes": [
         "“Tension in the room? Never heard of her.”",
@@ -124,7 +124,7 @@ const QUIZ_DATA = {
     "spring": {
       "name": "Compression Spring",
       "tagline": "The Resilient One",
-      "part_number": "9657K25",
+      "part_number": "9622K51",
       "description": "You handle pressure, bounce back quickly, and always seem to have energy left for the next challenge.",
       "quotes": [
         "“You can push me down. I consider it a warm-up.”",
@@ -141,7 +141,7 @@ const QUIZ_DATA = {
     "oring": {
       "name": "O-Ring",
       "tagline": "The Quiet MVP",
-      "part_number": "9452K21",
+      "part_number": "9452K111",
       "description": "Low-key but essential. You don't need the spotlight, but things would fall apart surprisingly fast without you.",
       "quotes": [
         "“You didn't notice me all year. You noticed the day I wasn't there.”",
@@ -158,7 +158,7 @@ const QUIZ_DATA = {
     "caster": {
       "name": "Caster Wheel",
       "tagline": "The Adventurer",
-      "part_number": "2412T51",
+      "part_number": "2498T64",
       "description": "Flexible, spontaneous, and always ready to go somewhere new. You hate feeling stuck in one place.",
       "quotes": [
         "“I've lived here two years and still haven't fully unpacked. Might move soon anyway.”",
@@ -192,7 +192,7 @@ const QUIZ_DATA = {
     "shim": {
       "name": "Shim",
       "tagline": "The Perfectionist",
-      "part_number": "98164A130",
+      "part_number": "98090A130",
       "description": "Detail-oriented and precise. You notice the tiny things everyone else overlooks and make sure everything lines up just right.",
       "quotes": [
         "“It's off by half a millimeter and I will be thinking about it until Thursday.”",
@@ -599,12 +599,10 @@ const QUIZ_DATA = {
   },
   "GEAR_PART_LINKS": {
     "left": {
-      "part_number": "3598N289",
-      "part_url": "https://www.mcmaster.com/3598N289/"
+      "part_number": "3598N289"
     },
     "right": {
-      "part_number": "3598N291",
-      "part_url": "https://www.mcmaster.com/3598N291/"
+      "part_number": "3598N291"
     }
   }
 };
