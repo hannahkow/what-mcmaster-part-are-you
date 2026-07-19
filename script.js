@@ -45,7 +45,14 @@
   const screenIntro = document.getElementById("screen-intro");
   const screenQuiz = document.getElementById("screen-quiz");
   const screenResult = document.getElementById("screen-result");
-
+  function wireCheckedStyling(containerEl, checkedClass) {
+    containerEl.querySelectorAll('input[name="choice"]').forEach((input) => {
+      input.addEventListener("change", () => {
+        containerEl.querySelectorAll("label").forEach((lbl) => lbl.classList.remove(checkedClass));
+        input.closest("label").classList.add(checkedClass);
+      });
+    });
+  }
   function showScreen(el) {
     [screenIntro, screenQuiz, screenResult].forEach((s) => s.classList.add("hidden"));
     el.classList.remove("hidden");
@@ -119,6 +126,7 @@
       label.appendChild(marker);
       label.appendChild(text);
       optionsEl.appendChild(label);
+      wireCheckedStyling(optionsEl, "option--checked");
     });
   }
 
@@ -162,6 +170,7 @@
       label.appendChild(icon);
       label.appendChild(labelText);
       optionsEl.appendChild(label);
+      wireCheckedStyling(optionsEl, "reaction--checked");
     });
   }
 
@@ -255,6 +264,7 @@
       label.appendChild(marker);
       label.appendChild(text);
       optionsEl.appendChild(label);
+      wireCheckedStyling(optionsEl, "option--checked");
     });
   }
 
