@@ -310,28 +310,6 @@
       quotesEl.appendChild(li);
     });
 
-    // breakdown
-    const maxScore = Math.max(...Object.values(scores)) || 1;
-    const breakdown = Object.entries(scores)
-      .map(([id, score]) => ({
-        id,
-        name: PARTS[id].name,
-        score,
-        pct: Math.round((100 * score) / maxScore),
-      }))
-      .sort((a, b) => b.score - a.score);
-
-    const breakdownEl = document.getElementById("result-breakdown");
-    breakdownEl.innerHTML = "";
-    breakdown.forEach((row) => {
-      const div = document.createElement("div");
-      div.className = "breakdown__row" + (row.id === winnerId ? " breakdown__row--winner" : "");
-      div.innerHTML =
-        '<span class="breakdown__name">' + row.name + "</span>" +
-        '<span class="breakdown__bar-track"><span class="breakdown__bar-fill" style="width:' + row.pct + '%;"></span></span>' +
-        '<span class="breakdown__score">' + row.score + "</span>";
-      breakdownEl.appendChild(div);
-    });
 
     // compatible parts
     const compatEl = document.getElementById("result-compatible");
