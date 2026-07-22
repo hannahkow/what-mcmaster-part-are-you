@@ -398,7 +398,7 @@ const QUIZ_DATA = {
           "weights": { "safetyglasses": 3, "shim": 1 }
         },
         {
-          "text": "Honestly, that was a genuinely fun day.",
+          "text": "Honestly, that was a fun day.",
           "weights": { "ballbearing": 3, "caster": 1 }
         },
         {
@@ -411,7 +411,7 @@ const QUIZ_DATA = {
       "time": "4:59 PM",
       "scene": [
         "You're one minute from heading out. You check the group chat.",
-        "The team just shared some genuinely great news."
+        "The team just shared some great news."
       ],
       "prompt": "Your reaction:",
       "style": "reactions",
