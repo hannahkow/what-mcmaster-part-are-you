@@ -424,25 +424,32 @@ const QUIZ_DATA = {
           "weights": { "gear": 3, "hexbolt": 1 }
         },
         {
-          "label": ":tada:",
-          "emoji": "🎉",
+          "label": ":meow_party:",
+          "emoji": null,
           "image": null,
-          "gif_url": null,
+          "gif_url": "https://media.tenor.com/1L7d8b_ZjxUAAAAj/meow-party-disco-cat.gif",
           "weights": { "caster": 3, "ducttape": 1 }
         },
         {
-          "label": ":thinking:",
-          "emoji": "🤔",
+          "label": ":boogie_wookie:",
+          "emoji": null,
           "image": null,
-          "gif_url": null,
+          "gif_url": "https://media1.tenor.com/m/25Xq_inoa58AAAAd/dancing-chewie.gif",
           "weights": { "shim": 3, "safetyglasses": 1 }
         },
         {
-          "label": ":handshake:",
-          "emoji": "🤝",
+          "label": ":gunter:",
+          "emoji": null,
           "image": null,
-          "gif_url": null,
+          "gif_url": "https://media.tenor.com/lieNzA-hpxoAAAAj/adventure-time-lol.gif",
           "weights": { "oring": 3, "cabletie": 1 }
+        },
+        {
+          "label": ":dab_unicorn:",
+          "emoji": null,
+          "image": null,
+          "gif_url": "https://media1.tenor.com/m/2m-JLMWAkUYAAAAd/yeet.gif",
+          "weights": { "ballbearing": 3, "wd40": 1 }
         },
         {
           "label": ":dancing_dinosaur:",
